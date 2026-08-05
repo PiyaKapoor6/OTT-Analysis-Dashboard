@@ -111,7 +111,7 @@ streamlit run app.py
 
 Main dashboard with navigation and project overview.
 
-![Home Dashboard 1](screenshots/Home1.png)
+![Home Dashboard 1](screenshots/Home.png)
 
 ![Home Dashboard 2](screenshots/Home2.png)
 
