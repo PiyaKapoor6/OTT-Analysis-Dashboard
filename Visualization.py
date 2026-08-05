@@ -25,7 +25,7 @@ else:
 fig = px.sunburst(filtered_df,path=["Platform", "Content Type", "Video Quality"],values="Monthly Active Users (Millions)",color="Rating",color_continuous_scale="RdBu",title="OTT Platform Analysis")
 
 fig.update_layout(
-    height=750,
+    height=700,
     margin=dict(t=60, l=20, r=20, b=20)
 )
 
