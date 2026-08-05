@@ -1,40 +1,36 @@
-📺 OTT Platforms Analysis Dashboard
-Overview
+# 📺 OTT Platforms Analysis Dashboard
 
-The OTT Platforms Analysis Dashboard is an interactive data analysis project developed using Python and Streamlit. It analyzes popular OTT platforms based on various attributes such as monthly active users, subscription prices, ratings, content types, and video quality.
+## Overview
 
-The dashboard enables users to explore the dataset through interactive visualizations and compare different OTT platforms.
+The OTT Platforms Analysis Dashboard is an interactive data analysis project built using **Python**, **Streamlit**, **Pandas**, **Plotly**, and **Matplotlib**. It provides insights into popular OTT platforms by analyzing monthly active users, subscription prices, ratings, content types, and video quality through interactive visualizations.
 
-Features
-🏠 Interactive Home Dashboard
-🗂️ Dataset Exploration
-🌞 Sunburst Visualization
-💰 Subscription Price vs Monthly Active Users Comparison
-📊 Interactive Filters
-📈 Plotly Visualizations
-🖥️ Responsive Streamlit Interface
-Technologies Used
-Python
-Streamlit
-Pandas
-Plotly
-Matplotlib
-Dataset
+---
 
-The project uses datasets containing information about OTT platforms, including:
+## Features
 
-Platform Name
-Monthly Active Users
-Subscription Price
-Rating
-Content Type
-Video Quality
+- 🏠 Interactive Home Dashboard
+- 🗂️ Dataset Exploration
+- 📊 Monthly Active Users Analysis
+- 🌞 Sunburst Visualization
+- 💰 Subscription Price vs Monthly Active Users Comparison
+- 🔍 Interactive Platform Filters
+- 📈 Interactive Plotly Charts
 
-Additional datasets:
+---
 
-Amazon Prime Titles
-Netflix Titles
-Project Structure
+## Technologies Used
+
+- Python
+- Streamlit
+- Pandas
+- Plotly
+- Matplotlib
+
+---
+
+## Project Structure
+
+```
 OTT-Analysis-Dashboard/
 │
 ├── Datasets/
@@ -51,29 +47,58 @@ OTT-Analysis-Dashboard/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-Installation
-Clone the repository.
-Install the required libraries:
-pip install -r requirements.txt
-Run the Streamlit application:
-streamlit run app.py
-Dashboard Pages
-🏠 Home
-🗂️ Dataset
-🌞 Visualization
-💰 Comparison
-Future Improvements
-Add more OTT platforms
-Perform advanced data cleaning
-Include additional visualizations
-Add real-time data integration
-Build predictive analytics using machine learning
-Author
+```
 
-Piya Kapoor
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## Dashboard Pages
+
+- 🏠 Home
+- 🗂️ Dataset
+- 🌞 Visualization
+- 💰 Comparison
+
+---
+
+## Future Enhancements
+
+- Add more OTT platforms
+- Include advanced data cleaning
+- Add more interactive visualizations
+- Integrate real-time datasets
+
+---
+
+## Author
+
+**Piya Kapoor**
 
 B.Tech Computer Science Engineering
 
-License
+---
 
-This project is developed for educational and portfolio purposes.
+## License
+
+This project is intended for educational and portfolio purposes.
